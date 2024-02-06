@@ -34,8 +34,8 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
 ]
 dependencies = [
-    "bokeh",
-    "panel",
+    "bokeh<3.0",
+    "panel<1.0",
     "param",
 ]
 dynamic = ["version"]
@@ -56,7 +56,7 @@ examples = [
 ]
 
 [project.urls]
-repository = "https://github.com/awesome-panel/panel-modal"
+repository = "https://github.com/jw-cpnet/panel-modal"
 
 [tool.setuptools.dynamic]
 version = {attr = "panel_modal.VERSION"}
